@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Mastery | Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Denmark</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#gallery">Photos/Gallery</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="section">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Den Mark<br />a</span> BSIT
+                </h1>
+                <p class="description">
+                    Welcome to my web developer portfolio! I'm Den Mark, currently a student at Bestlink College of the Philippines. I am a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. 
+                </p>
+                <div class="action__btns">
+                    <button class="about__me">About Me</button>
+                    <button class="portfolio">Portfolio</button>
+                </div>
+            </div>
+            <div class="handsome">
+                <img src="profile.jpg" alt="profile" />
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section hidden">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">About Me</p>
+                <h2 class="title">
+                    Get to Know Me Better
+                </h2>
+                <p class="description">
+                    I am Den Mark, a passionate web developer based in the Philippines. I have a Bachelor of Science in Information Technology degree from Bestlink College of the Philippines. My journey in web development began during my college days, and since then, I have been honing my skills to create stunning websites and web applications.
+                </p>
+                <div class="action__btns">
+                    <button class="back__home">Back to Home</button>
+                    <button class="portfolio">Portfolio</button>
+                </div>
+            </div>
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="profile" />
+            </div>
+        </div>
+    </section>
+
+   <section id="gallery" class="section hidden">
+    <div class="section__container">
+        <h2 class="title">Photo Gallery</h2>
+        <div class="gallery">
+            <div class="image">
+                <img src="8.jpg" alt="Image 1">
+                <div class="overlay">
+                    <div class="overlay-text">My Selfie in Inasal</div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="7.jpeg" alt="Image 2">
+                <div class="overlay">
+                    <div class="overlay-text">My Girlfriend</div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="one.jpeg" alt="Image 3">
+                <div class="overlay">
+                    <div class="overlay-text">My Selfie in Province</div>
+                </div>
+            </div>
+<div class="image">
+                <img src="9.jpeg" alt="Image 4">
+                <div class="overlay">
+                    <div class="overlay-text">My Girlfriend</div>
+                </div>
+            </div>
+<div class="image">
+                <img src="4.jpg" alt="Image 5">
+                <div class="overlay">
+                    <div class="overlay-text">Gym</div>
+                </div>
+            </div>
+<div class="image">
+                <img src="3.jpg" alt="Image 6">
+                <div class="overlay">
+                    <div class="overlay-text">Kulet</div>
+                </div>
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="portfolio" class="section hidden">
+    <div class="section__container">
+<h2>PORTFOLIO</H2><BR>
+        <div class="project">
+            <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2023/11/what-is-sukuna-s-real-form-in-jjk.jpg" alt="Project 1">
+            <div class="project__overlay">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+                <a href="project1-details.html">View Details</a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/05/jujutsu-kaisen-gojo-223.jpg" alt="Project 2">
+            <div class="project__overlay">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+                <a href="project2-details.html">View Details</a>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+
+   <section id="contact" class="section hidden">
+    <div class="section__container">
+        <div class="content">
+            <p class="subtitle">Contact Me</p>
+            <h2 class="title">Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100089811301516" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://example.com/twitter" target="_blank"><img src="instagram.png" alt="Twitter"></a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
